@@ -1,0 +1,13 @@
+.email-input {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 552px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8rem;
+    align-items: center;
+  }
+}

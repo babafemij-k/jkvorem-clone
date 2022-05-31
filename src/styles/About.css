@@ -1,0 +1,50 @@
+.about {
+  min-height: 80vh;
+  color: #fff;
+  padding: 0 10rem;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.about-info {
+  margin-left: 6rem;
+}
+
+.about-info > h2 {
+  font-size: 3.75rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  margin-top: -15rem;
+  margin-bottom: 2rem;
+}
+.about-info > p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .about {
+    padding: 0 2rem;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    min-height: 60rem;
+    align-items: flex-start;
+  }
+
+  .about-image {
+    width: 25rem;
+  }
+  .about-image > img {
+    width: 100%;
+  }
+
+  .about-info {
+    margin-left: unset;
+    margin-top: 15rem;
+  }
+}

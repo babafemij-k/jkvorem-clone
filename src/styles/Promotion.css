@@ -1,0 +1,31 @@
+.promotion {
+  min-height: 70vh;
+  color: #fff;
+  padding: 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 4rem;
+}
+.book-description {
+  max-width: 35rem;
+}
+
+.book-description > h3 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+.book-description > p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #aab2cd;
+}
+
+@media screen and (max-width: 991px) {
+  .promotion {
+    padding: 2rem 2rem;
+    flex-direction: column;
+  }
+}
